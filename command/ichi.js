@@ -178,6 +178,20 @@ break;
 case 'menu': case 'help': case '?': {
   let menu = `
 ╔════════
+╠══ *Bot Only For GC* 
+╠「 *INFO BOT* 」
+╠ Name : _The Next Projects_ 
+╠ Author : *Tom*
+╠ Library : Bailyes-MD
+╠ Language : JavaScript
+╠ Device : *Heroku*
+╠ Date : ${date}
+╠ Wib : ${wib}
+╠ Wita : ${wita}
+╠ Wit : ${wit}
+╚════════
+
+╔════════
 ╠══ *OWNER MENU*
 ╠ ${prefix}bc
 ╠ ${prefix}bcgc
@@ -208,6 +222,7 @@ case 'menu': case 'help': case '?': {
 ╠ ${prefix}tagall
 ╠ ${prefix}hidetag
 ╠ ${prefix}ephemeral
+╠ $(prefix)afk
 ╚════════
   
 ╔════════
@@ -224,6 +239,11 @@ case 'menu': case 'help': case '?': {
 ╠ ${prefix}estetik
 ╠ ${prefix}ktpmaker
 ╚════════
+
+╔════════
+╠══  *FUN MENU*
+╠ *coming soon*
+╚════════ 
 
 ╔════════
 ╠══ *RANDOM MENU*
@@ -251,6 +271,11 @@ case 'menu': case 'help': case '?': {
 ╠ ${prefix}ytmp3
 ╠ ${prefix}ytmp4
 ╚════════
+
+╔════════
+╠══  *RPG GAME*
+╠ *coming soon*
+╚════════ 
   `
   let but = [
   {urlButton: {displayText: 'Source Code ♨️',url: 'https://github.com/NzrlAfndi/Ichigo-Kurosaki'}}, 
@@ -642,6 +667,21 @@ case 'editinfo': {
   }
   }
   break
+case 'afk' :{
+for (let x of mentionUser) {
+                if (afk.hasOwnProperty(x.split('@')[0])) {
+                    ini_txt = "Maaf user yang anda reply atau tag sedang afk. "
+                    if (afk[x.split('@')[0]] != "") {
+                        ini_txt += "Dengan alasan " + afk[x.split('@')[0]]
+                    }
+                    reply(ini_txt)
+                }
+            }
+            if (afk.hasOwnProperty(sender.split('@')[0])) {
+                reply("Anda telah keluar dari mode afk.")
+                delete afk[sender.split('@')[0]]
+                fs.writeFileSync("./database/afk.json", JSON.stringify(afk))
+            }
 
 //Maker Menu
 case 'sticker': case 's': case 'stickergif': case 'sgif': {
