@@ -31,8 +31,8 @@ License: [MIT](https://en.wikipedia.org/wiki/MIT_License)
 
 
 ```bash
-git clone https://github.com/NzrlAfndi/Ichigo-Kurosaki
-cd Ichigo-Kurosaki
+git clone https://github.com/T0MTys/Tom1
+cd Tom1
 yarn
 npm start
 ```
@@ -53,8 +53,8 @@ apt install git -y
 apt install nodejs -y
 apt install ffmpeg -y
 pkg install yarn
-git clone https://github.com/NzrlAfndi/Ichigo-Kurosaki
-cd Ichigo-Kurosaki
+git clone https://github.com/T0MTys/Tom1
+cd Tom1
 yarn
 npm start
 ```
