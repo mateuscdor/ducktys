@@ -1,5 +1,5 @@
 /**
-   * Made By Fandyyy 🕴️
+   * Made By Tom
    * Subscribe Projects The Next
    * Follow https://instagram.com/rangga_1532
    * Follow https://github.com/T0MTys
