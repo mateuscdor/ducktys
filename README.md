@@ -1,7 +1,6 @@
-<p align="center">
-<img src="https://telegra.ph/file/5bd80998f8262a0a5e64f.jpg" alt="Ichigo Kurosaki" width="500"/>
 
-Base Bot WhatsApp Multi Device With [`Baileys Multi Device`](https://github.com/adiwajshing)
+
+Base Bot WhatsApp Multi by Fandyyy Device With [`Baileys Multi Device`](https://github.com/adiwajshing)
 
 ## Note
 Base Ini Free Untuk Semua, Tidak Untuk Diperjualbelikan Kecuali Lu Udah Tambahin Fitur Langka Di Script Ini Baru Boleh Jual
@@ -10,17 +9,16 @@ Base Ini Free Untuk Semua, Tidak Untuk Diperjualbelikan Kecuali Lu Udah Tambahin
 * [`Adiwajshing`](https://github.com/adiwajshing)
 * [`Nurutomo`](https://github.com/Nurutomo)
 * [`Fandyyy`](https://github.com/FBOTZ-YT)
-* [`FERDIZ-afk`](https://github.com/FERDIZ-afk)
+* [`FERDIZ-afk`](https://github.com/)
+* [`T0MTys`](https://github.com/T0MTys)
 
 ## Connect With Me
-* [`Group WhatsApp`](https://chat.whatsapp.com/CSqakw6x2wRIOWTPL5a6a9)
-* [`Whatsapp`](https://wa.me/6285609233482?text=Assalamualaikum)
-* [`Instagram`](https://instagram.com/_nzrlafndi)
-* [`More...`](https://linktr.ee/NzrlAfndi)
+* [`Group WhatsApp`](https://chat.whatsapp.com/)
+* [`Whatsapp`](https://wa.me/6281359053674?text=Assalamualaikum)
+* [`Instagram`](https://instagram.com/rangga_1532)
+* [`More...`](https://linktr.ee/T0MTys)
 
 ## Donate Me
-* [`Saweria`](https://saweria.co/Fandyy)
-* [`Gopay`](https://telegra.ph/file/4abd43eeab0c17edebff2.jpg)
 
 ## License
 License: [MIT](https://en.wikipedia.org/wiki/MIT_License)
