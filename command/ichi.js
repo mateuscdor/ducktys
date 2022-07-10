@@ -185,7 +185,7 @@ case 'menu': case 'help': case '?': {
 ╠ Library : Bailyes-MD
 ╠ Language : JavaScript
 ╠ Device : *Heroku*
-╠ Date : ${date}
+╠ Date : ${time}
 ╠ Wib : ${wib}
 ╠ Wita : ${wita}
 ╠ Wit : ${wit}
@@ -222,7 +222,6 @@ case 'menu': case 'help': case '?': {
 ╠ ${prefix}tagall
 ╠ ${prefix}hidetag
 ╠ ${prefix}ephemeral
-╠ $(prefix)afk
 ╚════════
   
 ╔════════
@@ -667,21 +666,6 @@ case 'editinfo': {
   }
   }
   break
-case 'afk' :{
-for (let x of mentionUser) {
-                if (afk.hasOwnProperty(x.split('@')[0])) {
-                    ini_txt = "Maaf user yang anda reply atau tag sedang afk. "
-                    if (afk[x.split('@')[0]] != "") {
-                        ini_txt += "Dengan alasan " + afk[x.split('@')[0]]
-                    }
-                    reply(ini_txt)
-                }
-            }
-            if (afk.hasOwnProperty(sender.split('@')[0])) {
-                reply("Anda telah keluar dari mode afk.")
-                delete afk[sender.split('@')[0]]
-                fs.writeFileSync("./database/afk.json", JSON.stringify(afk))
-            }
 
 //Maker Menu
 case 'sticker': case 's': case 'stickergif': case 'sgif': {
