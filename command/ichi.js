@@ -180,8 +180,8 @@ case 'menu': case 'help': case '?': {
 ╔════════
 ╠══ *Bot Only For GC* 
 ╠「 *INFO BOT* 」
-╠ Name : _The Next Projects_ 
-╠ Author : *Tom*
+╠ Name : *BETA* 
+╠ Author : *Tanaka*
 ╠ Library : Bailyes-MD
 ╠ Language : JavaScript
 ╠ Device : *Heroku*
@@ -191,90 +191,69 @@ case 'menu': case 'help': case '?': {
 ╠ Wit : ${wit}
 ╚════════
 
-╔════════
-╠══ *OWNER MENU*
-╠ ${prefix}bc
-╠ ${prefix}bcgc
-╠ ${prefix}join
-╠ ${prefix}leave
-╠ ${prefix}block
-╠ ${prefix}unblock
-╠ ${prefix}setppbot
-╠ ${prefix}self
-╠ ${prefix}public
-╠ ${prefix}eval
-╚════════
+*[Owner Menu]*
+⌫ ${prefix}bc
+⌫ ${prefix}bcgc
+⌫ ${prefix}join
+⌫ ${prefix}leave
+⌫ ${prefix}block
+⌫ ${prefix}unblock
+⌫ ${prefix}setppbot
+⌫ ${prefix}self
+⌫ ${prefix}public
+⌫ ${prefix}eval
   
-╔════════
-╠══ *GROUP MENU*
-╠ ${prefix}antilink
-╠ ${prefix}Antidelete
-╠ ${prefix}antiviewone
-╠ ${prefix}linkgroup
-╠ ${prefix}revoke
-╠ ${prefix}kick
-╠ ${prefix}add
-╠ ${prefix}promote
-╠ ${prefix}demote
-╠ ${prefix}setname
-╠ ${prefix}setdesk
-╠ ${prefix}setppgrup
-╠ ${prefix}tagall
-╠ ${prefix}hidetag
-╠ ${prefix}ephemeral
-╚════════
+*[Group Menu]*
+⌫ ${prefix}antilink
+⌫ ${prefix}Antidelete
+⌫ ${prefix}antiviewone
+⌫ ${prefix}linkgc
+⌫ ${prefix}revoke
+⌫ ${prefix}kick
+⌫ ${prefix}add
+⌫ ${prefix}promote
+⌫ ${prefix}demote
+⌫ ${prefix}setname
+⌫ ${prefix}setdesk
+⌫ ${prefix}setppgrup
+⌫ ${prefix}tagall
+⌫ ${prefix}hidetag
+⌫ ${prefix}ephemeral
   
-╔════════
-╠══ *MAKER MENU*
-╠ ${prefix}sticker
-╠ ${prefix}toimg
-╠ ${prefix}tovideo
-╠ ${prefix}toaudio
-╠ ${prefix}tomp3
-╠ ${prefix}tovn
-╠ ${prefix}togif
-╠ ${prefix}tourl
-╠ ${prefix}removebg
-╠ ${prefix}estetik
-╠ ${prefix}ktpmaker
-╚════════
+*[Convert Menu]*
+⌫ ${prefix}sticker
+⌫ ${prefix}toimg
+⌫ ${prefix}tovideo
+⌫ ${prefix}toaudio
+⌫ ${prefix}tomp3
+⌫ ${prefix}tovn
+⌫ ${prefix}togif
+⌫ ${prefix}tourl
+⌫ ${prefix}removebg
+⌫ ${prefix}estetik
+⌫ ${prefix}ktpmaker
 
-╔════════
-╠══  *FUN MENU*
-╠ *coming soon*
-╚════════ 
+*[Random Menu]*
+⌫ ${prefix}pinterest
+⌫ ${prefix}wallpaper
+⌫ ${prefix}quotesanime
+⌫ ${prefix}wikimedia
 
-╔════════
-╠══ *RANDOM MENU*
-╠ ${prefix}pinterest
-╠ ${prefix}wallpaper
-╠ ${prefix}quotesanime
-╠ ${prefix}wikimedia
-╚════════
+*[Other Menu]*
+⌫ ${prefix}delete
+⌫ ${prefix}donasi
+⌫ ${prefix}sewa
+⌫ ${prefix}sc
+⌫ ${prefix}owner
+⌫ ${prefix}ping
+⌫ ${prefix}menu / ${prefix}help / ${prefix}?
 
-╔════════
-╠══ *OTHER MENU*
-╠ ${prefix}delete
-╠ ${prefix}donasi
-╠ ${prefix}sewa
-╠ ${prefix}sc
-╠ ${prefix}owner
-╠ ${prefix}ping
-╠ ${prefix}menu / ${prefix}help / ${prefix}?
-╚════════
-
-╔════════
-╠══ *DOWNLOAD MENU*
-╠ ${prefix}play
-╠ ${prefix}yts
-╠ ${prefix}ytmp3
-╠ ${prefix}ytmp4
-╚════════
-
-╔════════
-╠══  *RPG GAME*
-╠ *coming soon*
-╚════════ 
+*[Download Menu]*
+⌫ ${prefix}play
+⌫ ${prefix}yts
+⌫ ${prefix}ytmp3
+⌫ ${prefix}ytmp4
+ 
   `
   let but = [
   {urlButton: {displayText: 'Source Code ♨️',url: 'https://github.com/NzrlAfndi/Ichigo-Kurosaki'}}, 
